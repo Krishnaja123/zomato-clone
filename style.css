@@ -154,7 +154,7 @@ body {
 }
 
 .section1 {
-    margin-top: 50px;
+    margin-top: 65px;
     margin-left: 100px;
 }
 
@@ -172,7 +172,7 @@ body {
 .feature-image {
     height: 150px;
     overflow: hidden;
-    width: 525px;
+    width: 565px;
 }
 
 .feature-image img {
