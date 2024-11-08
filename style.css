@@ -1,44 +1,52 @@
-*{
-    box-sizing:border-box ;
+* {
+    box-sizing: border-box;
 
 }
-body{
+
+body {
     margin: 0;
     width: 100%;
 }
-.header-container{
+
+.header-container {
     position: relative;
 }
-.container{
+
+.container {
     width: 80%;
     margin: auto;
 }
-.image-container{
-    position:relative;
+
+.image-container {
+    position: relative;
     width: 100%;
     height: 450px;
     overflow: hidden;
 }
-.image-container img{
+
+.image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transform: scale(1.1);
 }
-.Header-body-section{
+
+.Header-body-section {
     position: absolute;
     top: 0;
     width: 100%;
-    color: #fff; 
+    color: #fff;
 }
-.navbar{
+
+.navbar {
     position: absolute;
     top: 0;
     width: 100%;
     color: #fff;
     font-weight: 550px;
 }
-.nav-container{
+
+.nav-container {
     width: 80%;
     margin: auto;
 
@@ -46,82 +54,98 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.logo-container{
+
+.logo-container {
     display: flex;
     align-items: center;
 
 }
-.logo-container p{
+
+.logo-container p {
     padding: 5px;
 }
-.nav-container ul{
+
+.nav-container ul {
     list-style: none;
     display: flex;
 
 }
-.nav-container ul li{
-    padding:3px;
+
+.nav-container ul li {
+    padding: 3px;
     margin-right: 25px;
     font-size: 20px;
     font-weight: 100;
 
 }
-.nav-container ul li a{
+
+.nav-container ul li a {
     text-decoration: none;
     color: #fff;
 }
-.zomato-logo{
+
+.zomato-logo {
     width: 250px;
 }
-.container-header-body{
-display: flex;
-justify-content: center;
-align-items: center;
-height: 450px;
-flex-direction: column;
+
+.container-header-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    flex-direction: column;
 
 }
-.header-body-content{
+
+.header-body-content {
     position: relative;
     top: -50px;
 }
-.Header-body-section-para1{
+
+.Header-body-section-para1 {
     font-size: 40px;
     margin: 25px;
 }
-.search-container{
+
+.search-container {
     background-color: #fff;
     width: 100%;
     height: 55px;
     max-width: 760px;
-   border-radius: 10px;
-   display: flex;
-   align-items: center;
-   padding: 7px;
-   color: #000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    color: #000;
 
 }
-.location-map{
+
+.location-map {
     color: rgb(227, 93, 93);
     /*font-size: 0ox;*/
 }
-.caret-down{
-    color:#000;
+
+.caret-down {
+    color: #000;
 }
-.location input{
+
+.location input {
     border: none;
     font-size: 15px;
     width: 190px;
 
 }
-.search-items{
+
+.search-items {
     color: #939191;
     font-size: 18px;
 }
-.line{
-    padding:5px;
+
+.line {
+    padding: 5px;
 }
-.search-items input{
+
+.search-items input {
     max-width: 100;
     width: 400px;
     border: none;
@@ -129,42 +153,48 @@ flex-direction: column;
     padding: 0 10px;
 }
 
-.section1{
+.section1 {
     margin-top: 50px;
-    margin-left: 120px;
+    margin-left: 100px;
 }
-.container-features{
+
+.container-features {
     display: flex;
     justify-content: space-between;
 }
-.features{
+
+.features {
     overflow: hidden;
     border-radius: 20px;
     border: 0.1px solid #c5c2c2;
 }
 
-.feature-image{
+.feature-image {
     height: 150px;
     overflow: hidden;
-    width: 500px;
+    width: 525px;
 }
-.feature-image img{
+
+.feature-image img {
     width: 100%;
     border-radius: 20px;
     background-position: 100px;
-    
+
 
 }
+
 .features h3,
-.features p{
+.features p {
     padding-left: 20px;
 }
-.features:hover{
+
+.features:hover {
     transform: 0.5s;
     transform: scale(1.04);
     cursor: pointer;
 }
-.feature-para{
+
+.feature-para {
     color: rgb(75, 74, 74);
     font-size: 36px;
     font-family: Okra, Helvetica, sans-serif;
@@ -172,14 +202,16 @@ flex-direction: column;
     margin-left: 250px;
     margin-top: 80px;
 }
-.city-name{
-   margin: 0px;
+
+.city-name {
+    margin: 0px;
     margin-left: 8px;
     color: rgb(10, 10, 10);
     font-size: 50px;
-    line-height: 4;  
+    line-height: 4;
 }
-.feature-body{
+
+.feature-body {
     width: 350px;
     height: 78px;
     overflow: hidden;
@@ -191,77 +223,88 @@ flex-direction: column;
     font-family: Okra, Helvetica, sans-serif;
 
 }
-.feature-body-content1{
+
+.feature-body-content1 {
     margin-left: 3px;
     margin-top: 3px;
     font-family: Okra, Helvetica, sans-serif;
     font-size: 20px;
     color: #000;
 }
-.feature-body-content2{
+
+.feature-body-content2 {
     margin: 0;
     font-size: 15px;
     font-family: Okra, Helvetica, sans-serif;
     color: rgb(54, 54, 54);
 }
-.Search-place{
+
+.Search-place {
     float: left;
     padding: 18px;
     line-height: 5px;
 
 }
-.angle-right{
+
+.angle-right {
     color: #000;
     float: left;
     margin-top: -38px;
     margin-left: 325px;
 }
 
-.section3{
+.section3 {
     margin-top: 100px;
     display: flex;
     -webkit-box-pack: center;
-   /* justify-content: center;*/
+    /* justify-content: center;*/
     width: 100%;
     background-color: rgb(255, 251, 247);
 }
-.right-section{
+
+.right-section {
     font-family: ;
     color: rgb(54, 54, 54);
     width: 50%;
 
 }
-.left-section{
-width: 50%;
-/*float: left;*/
+
+.left-section {
+    width: 50%;
+    /*float: left;*/
 }
-.radioButton-emailId:hover{
-    cursor:pointer;
+
+.radioButton-emailId:hover {
+    cursor: pointer;
 
 }
-.mobileApp-img{
+
+.mobileApp-img {
     width: 50%;
     height: auto;
-    margin-left:300px;
+    margin-left: 300px;
     margin-top: 50px;
 }
-.right-section h2{
+
+.right-section h2 {
     font-size: 44px;
 }
-.right-section p{
-    font-size: 18px; 
+
+.right-section p {
+    font-size: 18px;
 }
-.right-section input{
+
+.right-section input {
     padding: 12px 20px;
     margin: 8px 0;
     border-radius: 4px;
     box-sizing: border-box;
     justify-content: center;
 }
-.radioButton-emailId{
 
-}
-.emailId{
+.radioButton-emailId {}
+
+.emailId {
     width: 40%;
     font-size: 18px;
     color: #000;
@@ -270,27 +313,32 @@ width: 50%;
     color: rgb(28, 28, 28);
     margin: 0px 0px 0.1rem 0.8rem;
 }
-.button-shareAppLink{
+
+.button-shareAppLink {
     width: 15%;
     border-radius: 4px;
     height: 42px;
     margin: 6px;
     color: #fff;
-    background-color:rgb(224, 53, 70);
+    background-color: rgb(224, 53, 70);
     border: none;
     font-size: 15px;
 }
-.para1{
+
+.para1 {
     color: #464545;
 }
-.para2{
+
+.para2 {
     color: rgb(156, 156, 156);
 }
-.image-app{
+
+.image-app {
     width: 20%;
     cursor: pointer;
 }
-.section4-title{
+
+.section4-title {
     font-size: 30px;
     font-weight: 500;
     line-height: 40px;
@@ -298,7 +346,8 @@ width: 50%;
     color: rgb(54, 54, 54);
     margin-left: 250px;
 }
-.Popular-Cuisines{
+
+.Popular-Cuisines {
     font-size: 20px;
     line-height: 30px;
     font-family: Okra, Helvetica, sans-serif;
@@ -312,18 +361,22 @@ width: 50%;
     border-radius: 6px;
     position: relative;
 }
-.Popular-Cuisines a{
+
+.Popular-Cuisines a {
     text-decoration: none;
     color: #000;
 }
-.angle{
-    color:#000;
-margin-left: 720px;
-display: inline-block;
-position: absolute;
-float: right;
+
+.angle {
+    position: absolute;
+    right: 20px; /* Adjust based on your spacing needs */
+    top: 50%; /* Centers vertically */
+    transform: translateY(-50%); /* Fine-tunes vertical centering */
+    color: #000; /* Optional: Set color if needed */
 }
-.section5{
+
+
+.section5 {
     background-color: rgb(248, 248, 248);
     padding-left: 220px;
     padding-right: 220px;
@@ -331,17 +384,18 @@ float: right;
     padding-bottom: 20px;
 
 }
-.foot-head{
-}
-.image-footer{
+
+.foot-head {}
+
+.image-footer {
     width: 130px;
     height: 28px;
-    margin-bottom: 35px    
+    margin-bottom: 35px
 }
-.foot-location{
 
-}
-.footer-table{
+.foot-location {}
+
+.footer-table {
     width: 100%;
     text-align: left;
     column-gap: 220px;
@@ -349,29 +403,28 @@ float: right;
     line-height: 1.2;
 
 }
-th{
+
+th {
     font-size: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
-} 
-td{
+}
+
+td {
     font-size: 15px;
     font-weight: 200px;
     color: rgb(156, 156, 156);
     cursor: pointer;
 
 }
-.footer-table img{
+
+.footer-table img {
     width: 40%;
     height: 100%;
     border-radius: 0;
 }
-.section5 p{
+
+.section5 p {
     color: rgb(156, 156, 156);
 
 }
-
-
-
-
-

@@ -95,12 +95,15 @@
         <div class="right-section">
             <h2>Get the Zomato app</h2>
             <p class="para1">We will send you a link, open it on your phone to download <br>the app</p>
-            <input class="radioButton-emailId" type="radio" value="Email">
-            <label for="html">Email</label>
-            <input type="radio" value="Phone">
-            <label for="html">Phone</label><br>
+            <label>
+            <input type="radio" name="contact-method" value="Email" onclick="toggleInput('email')" checked>
+            Email</label>
+            <label>
+            <input type="radio" name="contact-method" value="Phone" onclick="toggleInput('phone')">
+            Phone</label><br>
             <div>
-                <input class="emailId" type="text" placeholder="Email">
+                <input class="input-field-emailId" type="text" placeholder="Email">
+                <input type="text" placeholder="type here....">
 
                 <button class="button-shareAppLink">Share App Link</button>
             </div>
